@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.carousel-item{
+    min-height: 90vh;
+}
+.link-container{
+    a:visited{
+        color: #939393;
+    }
+    a:hover{
+        color: black;
+    }
+    a.active:hover{
+        border-bottom: 2px solid black;
+    }
+}
+@media screen and (max-width:500px) {
+    .logo img{
+        width: 20px;
+        margin-left: 0px;
+    }
+    .carousel-item{
+        min-height: 70vh;
+    }
+    .nav-portion form{
+        visibility: hidden;
+    }
+    .options a{
+        visibility:hidden;
+    }
+    .options .fas{
+        visibility:hidden;
+    }
+    .Hamburger{
+        display: inline;
+    }
+    
+    
+
+}
